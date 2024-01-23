@@ -78,6 +78,7 @@
          'account_check_deposit',
          'account_cash_deposit',
          'account_move_csv_import',
+         'account_move_line_reconcile_manual',
         'account_statement_import_ofx',
         'account_statement_import_fr_cfonb',
         'account_reconcile_oca',
