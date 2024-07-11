@@ -15,6 +15,7 @@
     'depends': [
         # BASE
         'disable_odoo_online',
+        'remove_odoo_enterprise',
         'base_usability',
         #'mail_usability',
         'base_import',
@@ -22,13 +23,13 @@
         'base_company_extension',
         'partner_disable_gravatar',
         'auth_admin_passkey',
-        #'web_export_view',
         'web_no_bubble',
         'web_responsive',
         'eradicate_quick_create',
         'web_dialog_size',
         #'web_translate_dialog',
         'phone_validation',
+        #'partner_bank_acc_type_constraint',
         #'base_phone',
         # PRODUCT
         'product_usability',
@@ -55,10 +56,11 @@
         # POS
         'point_of_sale',
         'pos_usability',
+        # 'pos_payment_change',
         # ACCOUNT
         'account_usability',
         'account_move_name_sequence',
-        'account_menu',
+        'account_menu_usability',
         'currency_rate_update',
         'date_range_account',
         'account_partner_required',
@@ -82,6 +84,7 @@
         'account_invoice_overdue_reminder',
         'l10n_fr_intrastat_product',
         'l10n_fr_intrastat_service',
+        'l10n_fr_account_vat_return_teledec',
         'l10n_fr_siret',
         'l10n_fr_siret_lookup',
         'l10n_fr_account_invoice_facturx',
@@ -89,6 +92,7 @@
         'account_invoice_import_simple_pdf',
         'account_statement_completion_label_simple_sale',
         'account_cutoff_start_end_dates',
+        'account_move_line_reconcile_manual',
         #'account_invoice_fiscal_position_update',
         #'account_bank_statement_no_reconcile_guess',
         ],

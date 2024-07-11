@@ -56,7 +56,9 @@ product.group_mrp_properties = Manage properties on product
 </record>
 
 <record id="base.main_company" model="res.company">
-    <field name="currency_id" ref="base.EUR"/>
+    <!-- Comment currency_id because it trigger a crash upon installation when
+        the company already exists with another currency -->
+    <!--    <field name="currency_id" ref="base.EUR"/>  -->
     <field name="country_id" ref="base.fr"/>
 </record>
 <!--
