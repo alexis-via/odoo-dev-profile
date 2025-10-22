@@ -51,6 +51,7 @@ product.group_mrp_properties = Manage properties on product
     eval="[[ref('install_lang_fr')]]"/>
 -->
 
+<!--
 <record id="point_of_sale.pos_config_main" model="pos.config">
     <field name="iface_print_via_proxy" eval="True"/>
 </record>
@@ -58,7 +59,9 @@ product.group_mrp_properties = Manage properties on product
 <record id="base.main_company" model="res.company">
     <field name="currency_id" ref="base.EUR"/>
     <field name="country_id" ref="base.fr"/>
-</record>
+        </record>
+
+-->
 <!--
 
 http://help.openerp.com/question/34430/why-configuring-chart-via-web-succeed-and-failed-with-xml-duplicate-key-for-taxes/
